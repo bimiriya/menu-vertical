@@ -1,0 +1,65 @@
+body {
+	font-family: 'Didact Gothic', sans-serif;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	width: 10%;
+	border: 2px dashed pink;
+	background-color: #f0f5f5;
+	line-height: 200%;
+}
+
+ul li {
+	border-bottom: 2px dashed pink;
+
+}
+
+ul li:last-child {
+	border-bottom: 0;
+}
+
+ul li:first-child {
+	background: #ffe6ff;
+}
+
+
+ul li:first-child a {
+	color: pink;
+	font-weight: bold;
+}
+
+ul li:first-child a:hover {
+	color: white;
+	font-weight: bold;
+}
+
+a:hover {
+	color: white;
+	font-weight: bold;
+}
+
+ul li a:active {
+	color: pink;
+	background: white;
+}
+
+ul li:first-child a:active {
+	color: pink;
+	background: white;
+}
+
+ul li:hover {
+	background: pink;
+}
+
+
+a {
+	display: block;
+	text-decoration: none;
+	color: #52527a;
+	width: 100%;
+	padding-left: 10%;
+}
